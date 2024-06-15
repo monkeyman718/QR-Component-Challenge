@@ -60,7 +60,6 @@ body {
 
 .content {
   margin: 5px;
-  /* border: 1px dashed red; */
 }
 
 .content h1 {
@@ -76,9 +75,14 @@ body {
 }
 
 .content p {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   font-size: 15px;
   text-wrap: wrap;
-  margin: 10px 18px;
+  margin-left: 1.2em;
+  margin-right: 1.2em;
+  margin-top: 16px;
   color: var(--grayish-blue);
   text-align: center;
 }
@@ -97,4 +101,12 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.card .img-overlay {
+  width: 288px;
+  height: 288px;
+  margin: 11px auto;
+  border-radius: 10px;
+  position: absolute;
 }
